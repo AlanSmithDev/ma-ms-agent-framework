@@ -12,6 +12,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.AI.AgentServer.Core" />
+    <PackageReference Include="Azure.AI.AgentServer.Responses" />
     <PackageReference Include="Azure.Core" />
     <PackageReference Include="Azure.Identity" />
   </ItemGroup>
