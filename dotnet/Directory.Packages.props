@@ -7,7 +7,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!-- Aspire -->
-    <AspireAppHostSdkVersion>13.5.3</AspireAppHostSdkVersion>
+    <AspireAppHostSdkVersion>13.6.5</AspireAppHostSdkVersion>
   </PropertyGroup>
   <ItemGroup>
     <!-- Aspire.* -->
@@ -21,7 +21,7 @@
     <PackageVersion Include="Aspire.Hosting.AppHost" Version="$(AspireAppHostSdkVersion)" />
     <PackageVersion Include="Aspire.Hosting.Azure.CognitiveServices" Version="$(AspireAppHostSdkVersion)" />
     <PackageVersion Include="Aspire.Microsoft.Azure.Cosmos" Version="$(AspireAppHostSdkVersion)" />
-    <PackageVersion Include="CommunityToolkit.Aspire.OllamaSharp" Version="13.5.0" />
+    <PackageVersion Include="CommunityToolkit.Aspire.OllamaSharp" Version="13.6.1" />
     <PackageVersion Include="MessagePack" Version="3.1.7" /> <!-- Transitive dependency of Aspire pinned to newer version due to vulnerability in 2.5.192 -->
     <!-- Azure.* -->
     <PackageVersion Include="Azure.AI.AgentServer.Core" Version="1.0.0-beta.29" />
@@ -39,7 +39,7 @@
     <PackageVersion Include="Google.GenAI" Version="1.21.0" />
     <PackageVersion Include="Mscc.GenerativeAI.Microsoft" Version="3.1.0" />
     <!-- Microsoft.Azure.* -->
-    <PackageVersion Include="Microsoft.Azure.Cosmos" Version="3.63.0" />
+    <PackageVersion Include="Microsoft.Azure.Cosmos" Version="3.63.1" />
     <PackageVersion Include="Microsoft.Data.Sqlite" Version="10.0.12" />
     <!-- Newtonsoft.Json -->
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
